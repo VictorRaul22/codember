@@ -1,7 +1,4 @@
-const cadena =
-  '&###@&*&###@@##@##&######@@#####@#@#@#@##@@@@@@@@@@@@@@@*&&@@@@@@@@@####@@@@@@@@@#########&#&##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@&';
-const message_02 =
-  '&###@&*&###@@##@##&######@@#####@#@#@#@##@@@@@@@@@@@@@@@*&&@@@@@@@@@####@@@@@@@@@#########&#&##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@&';
+const message_02 = '&###*&';
 function miniCompiler(input) {
   const res = [];
   const operations = {
@@ -22,4 +19,4 @@ function miniCompiler(input) {
   return res.join('');
 }
 const result = miniCompiler(message_02);
-console.log(result);
+console.log(result); //09
