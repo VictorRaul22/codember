@@ -4,8 +4,8 @@
   "description": "",
   "main": "challenge.js",
   "scripts": {
-    "c1": "node challenge.js",
-    "c2": "node challenge2.js"
+    "c1": "node src/challenge.js",
+    "c2": "node src/challenge2.js"
   },
   "keywords": [],
   "author": "Victor Chirinos Jimenez <victor-raul-22@hotmail.com>",
